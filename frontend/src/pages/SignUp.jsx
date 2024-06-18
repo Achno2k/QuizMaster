@@ -28,7 +28,7 @@ function SignUp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://127.0.0.1:8000/users/signup", {
+      const response = await axios.post("https://quizmaster-8essvmv4v-aman-singhs-projects-0dbfab15.vercel.app/users/signup", {
         ...formData,
         enroll: parseInt(formData.enroll, 10)
       });
