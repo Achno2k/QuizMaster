@@ -20,7 +20,7 @@ function Login() {
             return;
         }
         try {
-            const response = await axios.post("https://quizmaster-8essvmv4v-aman-singhs-projects-0dbfab15.vercel.app/users/login", formData);
+            const response = await axios.post("https://quizmaster-beryl.vercel.app//users/login", formData);
             if (response.status === 200) {
                 localStorage.setItem("enroll", response.data.user.enroll);
                 if (signIn({
