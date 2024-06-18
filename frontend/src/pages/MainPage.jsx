@@ -1,9 +1,7 @@
 import React from 'react';
-import useSignOut from 'react-auth-kit/hooks/useSignOut';
 import useAuthUser from 'react-auth-kit/hooks/useAuthUser';
 import { useNavigate } from 'react-router-dom';
-import { AppBar, Toolbar, Typography, Button, Container, Box, Paper } from '@mui/material';
-import LogoutIcon from '@mui/icons-material/Logout';
+import { Typography, Button, Container, Paper } from '@mui/material';
 import QuizIcon from '@mui/icons-material/Quiz';
 
 export default function MainPage() {
